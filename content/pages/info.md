@@ -169,7 +169,7 @@ sections:
       - type: Label
         label: JavaScript
       - type: Label
-        label: Pancakes
+        label: MySQL
       - type: Label
         label: C++
       - type: Label
