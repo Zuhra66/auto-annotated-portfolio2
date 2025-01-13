@@ -167,7 +167,7 @@ sections:
       - type: Label
         label: C
       - type: Label
-        label: Netlify
+        label: JavaScript
       - type: Label
         label: Pancakes
       - type: Label
