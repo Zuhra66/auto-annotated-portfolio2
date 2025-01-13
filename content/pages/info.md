@@ -229,13 +229,11 @@ sections:
         text: |+
           **2024-2025**
 
-          *   BCS computer science at California State University, Monterey Bay
+          *   BCS Computer Science at California State University, Monterey Bay
 
           **2020-2023**
 
           *   A.S. Computer Science at Folsom Lake College
-
-
 
         styles:
           self:
