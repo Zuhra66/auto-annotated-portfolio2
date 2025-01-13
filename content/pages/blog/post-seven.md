@@ -1,11 +1,10 @@
 ---
 type: PostLayout
-title: Habits of highly productive web developers ⌨️
+title: Firewalls | Intrusion Detection Systems (IDS)  ⌨️
 colors: colors-a
-date: '2024-06-10'
+date: '2024-10-15'
 author: content/data/team/doris-soto.json
-excerpt: >-
-  More context that may or may not be helpful
+excerpt: More context that may or may not be helpful
 featuredImage:
   type: ImageBlock
   url: /images/featured-Image1.jpg
@@ -52,7 +51,7 @@ bottomSections:
     showReadMoreLink: true
   - type: ContactSection
     backgroundSize: full
-    title: 'Stay up-to-date with my words ✍️'
+    title: Stay up-to-date with my words ✍️
     colors: colors-f
     form:
       type: FormBlock
@@ -110,17 +109,22 @@ bottomSections:
       text:
         textAlign: left
 ---
+This week, I focused on **Operational Security**, specifically learning about **Firewalls** and **Intrusion Detection Systems (IDS)**, as discussed in sections 8.9-8.10, pages 667-670 of the course materials.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem, tincidunt ac leo efficitur, feugiat tempor odio. Curabitur at auctor sapien. Etiam at cursus enim. Suspendisse sed augue tortor. Nunc eu magna vitae lorem pellentesque fermentum. Sed in facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper. Donec sed facilisis nibh. Curabitur eget dui in libero euismod commodo nec sit amet est. Etiam id ipsum aliquam, vehicula erat sit amet, consequat tortor.
+### Firewalls
 
-## Good habits
+Firewalls play a crucial role in securing computer networks by controlling the flow of traffic between an internal network and external sources. They enforce security policies by blocking or allowing specific types of traffic based on a set of predefined rules. I learned that there are different types of firewalls, including **packet-filtering firewalls**, **stateful firewalls**, and **application-layer firewalls**. Each type offers a different level of control and inspection of traffic. The ability of firewalls to inspect packets and monitor the state of connections ensures that only legitimate traffic is allowed, thereby protecting the network from unauthorized access.
 
-Etiam facilisis lacus nec pretium lobortis. Praesent dapibus justo non efficitur efficitur. Nullam viverra justo arcu, eget egestas tortor pretium id. Sed imperdiet mattis eleifend. Vivamus suscipit et neque imperdiet venenatis. In malesuada sed urna eget vehicula. Donec fermentum tortor sit amet nisl elementum fringilla. Pellentesque dapibus suscipit faucibus. Nullam malesuada sed urna quis rutrum. Donec facilisis lorem id maximus mattis. Vestibulum quis elit magna. Vestibulum accumsan blandit consequat. Phasellus quis posuere quam.
+One key takeaway was that while firewalls are critical to network security, they alone are not enough to fully secure a network. A well-rounded security approach must include other tools and techniques to protect against modern threats, as firewalls primarily focus on preventing unauthorized external access.
 
-> “Everybody should learn to program a computer, because it teaches you how to think.”
+### Intrusion Detection Systems (IDS)
 
-Vestibulum ullamcorper risus auctor eleifend consequat. Vivamus mollis in tellus ac ullamcorper. Vestibulum sit amet bibendum ipsum, vitae rutrum ex. Nullam cursus, urna et dapibus aliquam, urna leo euismod metus, eu luctus justo mi eget mauris. Proin felis leo, volutpat et purus in, lacinia luctus eros. Pellentesque lobortis massa scelerisque lorem ullamcorper, sit amet elementum nulla scelerisque. In volutpat efficitur nulla, aliquam ornare lectus ultricies ac. Mauris sagittis ornare dictum. Nulla vel felis ut purus fermentum pretium. Sed id lectus ac diam aliquet venenatis. Etiam ac auctor enim. Nunc velit mauris, viverra vel orci ut, egestas rhoncus diam. Morbi scelerisque nibh tellus, vel varius urna malesuada sed. Etiam ultricies sem consequat, posuere urna non, maximus ex. Mauris gravida diam sed augue condimentum pulvinar vel ac dui. Integer vel convallis justo.
+In addition to firewalls, I learned about **Intrusion Detection Systems (IDS)**, which complement firewalls by monitoring network traffic for suspicious behavior. IDSs can detect anomalies and potential threats, like attempted breaches or unauthorized activity within the network. They do this by comparing network activity against a database of known attack signatures (signature-based detection) or by identifying deviations from normal patterns of behavior (anomaly-based detection).
 
-Nam rutrum magna sed pellentesque lobortis. Etiam quam mauris, iaculis eget ex ac, rutrum scelerisque nisl. Cras finibus dictum ex sed tincidunt. Morbi facilisis neque porta, blandit mauris quis, pharetra odio. Aliquam dictum quam quis elit auctor, at vestibulum ex pulvinar. Quisque lobortis a lectus quis faucibus. Nulla vitae pellentesque nibh, et fringilla erat. Praesent placerat ac est at tincidunt. Praesent ultricies a ex at ultrices. Etiam sed tincidunt elit. Nulla sagittis neque neque, ultrices dignissim sapien pellentesque faucibus. Donec tempor orci sed consectetur dictum. Ut viverra ut enim ac semper. Integer lacinia sem in arcu tempor faucibus eget non urna. Praesent vel nunc eu libero aliquet interdum non vitae elit. Maecenas pharetra ipsum dolor, et iaculis elit ornare ac.
+An important distinction is that while firewalls are preventive tools, IDSs are **detective** tools. IDSs don't prevent attacks but alert network administrators to potential threats. Some systems, known as **Intrusion Prevention Systems (IPS)**, take it a step further by actively blocking detected threats.
 
-Aenean scelerisque ullamcorper est aliquet blandit. Donec ac tellus enim. Vivamus quis leo mattis, varius arcu at, convallis diam. Donec ac leo at nunc viverra molestie ac viverra nisi. Proin interdum at turpis at varius. Nunc sit amet ex suscipit, convallis ligula eu, pretium turpis. Sed ultricies neque vel mi malesuada, et mollis risus lobortis. Sed condimentum venenatis mauris, id elementum dolor gravida ac. Sed sodales tempus neque, quis iaculis arcu tincidunt ut. Donec vitae faucibus dui. In hac habitasse platea dictumst. Donec erat ex, ullamcorper a massa a, porttitor porta ligula.
+### Reflection
+
+This week's content emphasized that securing a network is a multi-layered process. Firewalls provide a strong first line of defense, but they must be paired with tools like IDS to detect more sophisticated or internal threats. I found it fascinating to understand how these technologies work together to provide a secure network environment.
+
+This module has made me more aware of the limitations of each security tool and the importance of using them in conjunction with one another to create a robust security posture. It also reinforced the idea that constant monitoring and updating of security systems are essential in keeping networks safe from evolving threats.
