@@ -161,7 +161,7 @@ sections:
       - type: Label
         label: Java
       - type: Label
-        label: React
+        label: C++
       - type: Label
         label: Microsoft Office
       - type: Label
