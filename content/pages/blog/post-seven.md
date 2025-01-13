@@ -1,6 +1,6 @@
 ---
 type: PostLayout
-title: Habits of highly productive web developers ⌨️
+title: Firewalls | ⌨️
 colors: colors-a
 date: '2024-10-15'
 author: content/data/team/doris-soto.json
