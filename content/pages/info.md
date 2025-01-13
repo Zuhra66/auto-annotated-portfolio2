@@ -171,7 +171,7 @@ sections:
       - type: Label
         label: MySQL
       - type: Label
-        label: C++
+        label: Python
       - type: Label
         label: Swift
   - type: DividerSection
