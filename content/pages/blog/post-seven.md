@@ -109,4 +109,3 @@ bottomSections:
       text:
         textAlign: left
 ---
-<https://zuhratotakhail.blogspot.com/>
