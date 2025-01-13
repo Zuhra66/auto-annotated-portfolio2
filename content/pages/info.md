@@ -13,11 +13,7 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    text: >-
-      ## Hey I’m a developer. I’ve been born and raised in the world, and that’s
-      also where I’m based. I’m currently a free agent, ex-this, ex-that,
-      ex-super big name. When I’m not coding, writing or creating, I eat
-      cereals. I have a dog, check her out [@mygod](https://www.stackbit.com/).
+    text: "Hi, I'm\_**Zuhra Totakhail**, a passionate Computer Science student at\_**California State University, Monterey Bay**. My journey in technology began with a deep fascination for problem-solving and the endless possibilities of programming.\n\nI graduated in May 2023 from\_**Folsom Lake Community College**\_with an Associate's Degree in Computer Science. I am now expanding my knowledge in areas like\_**Cybersecurity**,\_**Web Development**, and\_**AI coding**, constantly seeking to refine my skills.\n\nWhen I'm not immersed in coding, I enjoy exploring new programming languages, engaging in cybersecurity challenges, and staying up to date with the latest tech trends. My goal is to contribute meaningfully to the field of technology while continually learning and growing as a developer.\n\n## Fun Facts\n\n*   I am multilingual and enjoy connecting with people from diverse cultures.\n\n*   In my free time, I explore new recipes and love experimenting in the kitchen.\n\n*   I have a strong interest in creating secure and user-friendly applications.\n\n*   My favorite programming language is Python, but I also love working with JavaScript and Java.\n\n"
     media:
       type: ImageBlock
       url: /images/about.jpg
