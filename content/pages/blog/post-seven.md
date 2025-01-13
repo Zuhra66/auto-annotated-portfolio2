@@ -1,6 +1,6 @@
 ---
 type: PostLayout
-title: Firewalls | ⌨️
+title: Firewalls | Intrusion Detection Systems (IDS)  ⌨️
 colors: colors-a
 date: '2024-10-15'
 author: content/data/team/doris-soto.json
