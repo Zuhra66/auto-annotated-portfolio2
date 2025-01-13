@@ -173,7 +173,7 @@ sections:
       - type: Label
         label: Python
       - type: Label
-        label: Swift
+        label: MongoDB
   - type: DividerSection
     styles:
       self:
