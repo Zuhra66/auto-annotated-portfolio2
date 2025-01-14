@@ -3,7 +3,7 @@ type: ProjectLayout
 title: Pokemon-Monster
 colors: colors-a
 date: '2021-10-15'
-client: Awesome client
+client: ''
 description: >-
   This project is a Node.js/Express application that integrates a MySQL database
   to manage and display Pokémon-like monsters. The database consists of two
