@@ -22,7 +22,7 @@ featuredImage:
   altText: Project thumbnail image
 media:
   type: ImageBlock
-  url: /images/bg3.jpg
+  url: /images/contact.jpg
   altText: Project image
   caption: >-
     This project is a Node.js/Express application that integrates a MySQL
